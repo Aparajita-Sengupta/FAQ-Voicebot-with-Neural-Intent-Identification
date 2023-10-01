@@ -16,3 +16,6 @@ Observations and Conclusions:
 - Given a data set, there is no fixed answer as to which architecture will perform better. However, increasing the amount of input data should definitely improve the results in LSTM model.
 
 - I have also tweaked with the architectures in both models. I simplified the models so they do not overfit the the training set. Overfitting the training set means the model has memorized the pecularities and noises embedded in the specific training set and will perform badly with validation and test sets. Using drop layer worsended the training data accuracy. I have also used decay factor for the learning rate to automatize the tuning of the hyperparameter.
+
+Sample conversation with the chatbot:
+<img width="1337" alt="Screenshot 2023-10-01 at 10 33 29 AM" src="https://github.com/Aparajita-Sengupta/FAQ-Voicebot-with-Neural-Intent-Identification/assets/110929917/4dd7dc70-1f02-466b-99e2-19801b02c30b">
